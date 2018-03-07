@@ -27,5 +27,5 @@ The project developed using TensorFlow to detect the License Plate from a car an
   * Then the CSV file is converted into **TensorFlow record format**.
 * The set of other separate 10 images also gone through the above steps and saved as **Test Record file** 
 <p align="center">
-  <img src="g3doc/img/kites_detections_output.jpg" width=676 height=450>
+  <img src="custom_plate/labelImg.png" width=676 height=450>
 </p>  
