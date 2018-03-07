@@ -3,7 +3,7 @@ The project developed using TensorFlow to detect the License Plate from a car an
 
 ### Software Packages Needed:
 * <a href='https://www.anaconda.com/download/'>Anaconda 3</a>(**Tool comes with most of the required python packages along with python3 & spyder IDE**)<br>
-* Tesseract Engine (**Doesn't need to be installed cause I included the trained OCR data along with the repository**)
+* <a href='https://github.com/tesseract-ocr/tesseract'>Tesseract Engine</a>(**Doesn't need to be installed cause I included the trained OCR data along in the repository**)<br>
 
 ### Python Packages Needed:
 * <a href='https://github.com/tensorflow/tensorflow'>Tensorflow</a><br>
