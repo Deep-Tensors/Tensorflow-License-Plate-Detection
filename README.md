@@ -41,5 +41,5 @@ The project developed using TensorFlow to detect the License Plate from a car an
 
 * Then the detected number plate is cropped using Tensorflow, By using the Google Tesseract-OCR (Package originally developed to scan hard copy documents to filter out the characters from it) the picture undergoes some coversions using computer vision package then the charcters are filtered out.
 <p align="center">
-  <img src="custom_plate/image_readme/char_recog.png" width=676 height=450>
+  <img src="custom_plate/image_readme/char_recog.png" width=900 height=600>
 </p> 
