@@ -33,7 +33,13 @@ The project developed using TensorFlow to detect the License Plate from a car an
 #### GPU TRAINING
 
 * By using the **Tensorflow-gpu** version, the set of annotated images were sent into the Convolutional neural network called as **ssd-mobilenet** where the metrics such as model learning rate, batch of images sent into the network and evaluation configurations were set. The training phase of the model took several days. At last the model came around with the positive result and detected the number plate over the input images.
-<p align="left">
+<p align="center">
   <img src="custom_plate/image_readme/test.png" width=676 height=450>
 </p> 
 
+#### OCR PART
+
+* Then the detected number plate is cropped using Tensorflow, By using the Google Tesseract-OCR (Package originally developed to scan hard copy documents to filter out the characters from it) the picture undergoes some coversions using computer vision package then the charcters are filtered out.
+<p align="center">
+  <img src="custom_plate/image_readme/char_recog.png" width=676 height=450>
+</p> 
